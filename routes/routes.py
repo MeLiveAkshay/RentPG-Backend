@@ -1,4 +1,5 @@
+# routes/routes.py
 def init_route(app):
-    @app.route('/')
-    def home():
-        return 'Hello from routes!'
+    @app.route('/routes')
+    def routes_home():
+        return 'Welcome to the root route!'
